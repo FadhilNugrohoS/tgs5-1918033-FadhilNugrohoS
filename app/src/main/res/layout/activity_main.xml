@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/cardview_dark_background">
+    android:background="#2B9DF8">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,16 +18,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="My Alarm"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="30sp"
             android:gravity="center">
         </TextView>
-        <AnalogClock
+        <DigitalClock
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="50dp"
             android:gravity="center"
-            android:textColor="@color/white"/>
+            android:textColor="@color/black"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -51,7 +51,7 @@
                 android:layout_width="170dp"
                 android:layout_height="wrap_content"
                 android:text="Cancel Alarm"
-                android:backgroundTint="#FF0033"/>
+                android:backgroundTint="color/blue"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
